@@ -10,3 +10,7 @@
 * `example.paio` 伪异步`TimeServer`，使用一个线程池处理连接
 * `example.nio`非阻塞`TimeServer`
 * `example.aio`异步`TimeServer`
+
+nio和aio使用太复杂。下面使用netty:
+
+* `example.netty`使用netty实现TimeServer
