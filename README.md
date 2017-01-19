@@ -14,3 +14,8 @@
 nio和aio使用太复杂。下面使用netty:
 
 * `example.netty`使用netty实现TimeServer
+
+TCP拆包粘包
+
+* `example.tcp.pk`TCP拆包粘包引发的问题
+* `example.tcp.pk.solve`利用Netty的`LineBasedFrameDecoder`解决TCP拆包粘包问题
