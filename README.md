@@ -23,3 +23,8 @@
 `LineBasedFrameDecoder`一次遍历ByteBuf中的字符，如果是\n或\r\n,就以此作为结束位置。它是依赖换行符为结束标志的解码器
 
 `StringDecoder`将接收的对象那个转为字符串，然后继续调用后面的handler
+
+4.解码器
+
+* `example.netty.decoder.delimiter`使用`DelimiterBasedFrameDecoder`自定义分割符
+* `example.netty.decoder.fiexdLength`使用`FixedLengthFrameDecoder`固定长度分割
